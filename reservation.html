@@ -1,0 +1,32 @@
+<body bgcolor="#330066">
+<form method="post" action="process_reservation.php"> 
+<h2> Make a Table Reservation</h2>
+ <p>
+   <label for="name">Name:</label><br>
+   <input type="text" name="name" id="name" required>
+ </p>
+ <p>
+   <label for="email">Email:</label><br>
+   <input type="email" name="email" id="email" required>
+ </p>
+ <p>
+    <label for="phone">Phone:</label><br>
+    <input type="tel" name="phone" id="phone" required>
+ </p>
+ <p>
+    <label for="date">Date:</label><br>
+    <input type="date" name="date" id="date" required>
+</p>
+<p>
+    <label for="time">Time:</label><br>
+    <input type="time" name="time" id="date" required>
+</p>
+<p>
+    <label for="guests">Number of Guests:</label><br>
+    <input type="number" name="guests" id="guests" min="1" required>
+</p>
+     <p>
+     <input type="submit" value="submit">
+     </p>
+     </form>
+    </body>
